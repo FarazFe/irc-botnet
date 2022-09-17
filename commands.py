@@ -2,7 +2,7 @@ import subprocess
 from abc import ABC, abstractmethod
 from random import randint
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from socket import socket
+import socket
 from typing import Protocol
 
 
