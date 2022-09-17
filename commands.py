@@ -60,7 +60,7 @@ class UnknownCommand:
 
 
 class DDOS(ABC):
-    MAX_ATTACKS_IN_EACH_THREAD = 10
+    MAX_ATTACKS_IN_EACH_THREAD = 500
 
     def __init__(self, destination_ip, destination_port, max_number_of_attacks, *args, **kwargs):
         self.max_number_of_attacks = int(max_number_of_attacks)
