@@ -1,0 +1,7 @@
+CHANNEL_NAME = '#test'
+SERVER = 'irc.freenode.net'
+PORT = 6667
+ADMIN_USERNAME = 'test1'
+BOTMASTER_USERNAME = 'test2'
+BOTMASTER_PASSWORD = 'test3'
+WORKER_NICKNAME = 'test4'
